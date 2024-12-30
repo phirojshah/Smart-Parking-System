@@ -58,14 +58,14 @@ cd smart-parking-system
 1. After uploading the code, open the Serial Monitor (Tools > Serial Monitor)
 2. Set the baud rate to 9600
 3. The system will start displaying distance measurements and parking spot status
-4. Default threshold distance is 20cm - modify `thresholdDistance` in the code to adjust
+4. Default threshold distance is 10cm - modify `thresholdDistance` in the code to adjust
 
 Example output:
 ```
-Distance: 15 cm
+Distance: 5 cm
 Parking Spot: Occupied
 
-Distance: 45 cm
+Distance: 25 cm
 Parking Spot: Vacant
 ```
 
@@ -82,7 +82,7 @@ The system operates using these key components:
 You can modify these parameters in the code:
 
 ```cpp
-const int thresholdDistance = 20; // Distance threshold in centimeters
+const int thresholdDistance = 10; // Distance threshold in centimeters
 const int trigPin = 6;           // Trigger pin connection
 const int echoPin = 7;           // Echo pin connection
 ```
