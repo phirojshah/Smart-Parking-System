@@ -1,9 +1,9 @@
 # Smart Parking System Using Ultrasonic Sensor 🚗
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![Issues](https://img.shields.io/github/issues/yourusername/smart-parking-system)
-![Forks](https://img.shields.io/github/forks/yourusername/smart-parking-system)
-![Stars](https://img.shields.io/github/stars/yourusername/smart-parking-system)
+![Issues](https://img.shields.io/github/issues/phirojshah/smart-parking-system)
+![Forks](https://img.shields.io/github/forks/phirojshah/smart-parking-system)
+![Stars](https://img.shields.io/github/stars/phirojshah/smart-parking-system)
 
 A simple yet effective parking spot monitoring system built with Arduino and ultrasonic sensors. This system helps detect vehicle presence and displays real-time parking spot availability.
 
@@ -42,7 +42,7 @@ Connect the components as follows:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/smart-parking-system.git
+git clone https://github.com/phirojshah/smart-parking-system.git
 cd smart-parking-system
 ```
 
